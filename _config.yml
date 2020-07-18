@@ -23,7 +23,7 @@ email: vibhanshujain99@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
 	IIIT Raichur Page of IIITians Network	
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://raichur.iiitiansnetwork.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: 
 twitter_username: 
 github_username:  vibhanshujainiiiitr
 
