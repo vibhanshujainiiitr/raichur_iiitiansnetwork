@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	
+	<!--
+			The template Credit goes to Vibhanshu Jain IIIT Raichur Batch 2019 ( https://vibhanshujainiiitr.github.io/)
+			Firefox bug is removed by Ayush Singh IIIT Bhopal Batch 2019
+			UI/ UX Design: Vibhanshu Jain
+			
+			Web-Team Lead: Vibhanshu Jain - 2020
+			All the rights are reserved to the Web-Team IIITians Network.
+			
+			IIIT Raichur Representative: 
+			Vibhanshu Jain ( https://vibhanshujainiiitr.github.io/ | vibhanshujain99@gmail.com | CS19B1027 ) : Website Coordinator
+			Aditya Agarwal ( https://github.com/crossphoton | https://crossphoton.github.io )
+			Fest Image credit goes to 'Infocus - The Photography Club IIT Hyderabad - https://www.instagram.com/infocus.iith/' 
+			
+	-->	 
+	
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166050406-1"></script>
+	<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-166050406-1');
+    </script>
+	
+    <!-- Title of your page: add the name of your IIIT-->
+    <title> Raichur | IIITians Network</title>
+    <meta content="This is IIIT Raichur's page of the community IIITians Network" name="description">		<!--You have to update the name of your IIIT in both these lines -->
+    <meta content="IIITians Network - IIIT Raichur - Campus - Fest - Club - News - Events - Placement - Alumni " name="keywords">
+
+    <!-- Favicons -->
+    <link href="img/logo/iiitian.png" rel="icon">
+    <link href="img/logo/iiitian.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Roboto&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Animation for text -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Anton'>
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- Font awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+    
+    <!-- Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <link href="assets/css/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/heading.css" type="text/css">
+    <link href="custom.css" rel="stylesheet">
+    
+    <!-- Carousel files -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <!--================================== STUDENT's LIFE CSS FILES =======================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/studentsLife.css">
+    <!--================================== STUDENT's LIFE CSS FILE END =======================================================-->
+    
+    <!--==================================Counter Up files ====================-->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+	
+    <!--==================================Counter Up files over ==============-->	
+		<!--================= Loader Part start ===============-->
+	    <style>
+        .no-js #loader { display: none;  }
+        .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+        .se-pre-con {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: url("./img/loader/loader.gif") center no-repeat #fff;
+        }
+    </style>
+    <!-- =================== Loader part ended=================== -->
+    
+</head>
+
+<body>
+	
+	{% include navigation.html %}
+	
+	<main id="main">
+		
+	{% include landing.html %}
+	{% include about.html %}
+	{% include club.html %}	
+	{% include slider.html %}
+	{% include news.html %}
+	
+	<!--======== Official Website link ================--> 
+       <section>
+		   <div class="col-lg-12 section-bg" style="text-align:center" data-aos="fade-up" data-aos-delay="200">
+			   <h3>Official Website<br></h3>
+			   <h1><a href="http://iiitr.ac.in/" target="_blank">iiitr.ac.in</a></h1>
+		   </div>
+       </section>  
+    <!--======== Official website part ended =============-->
+	
+	{% include image_grid.html %}
+	{% include footer.html %}
+		
+    </main>
+    
+    
+    
+    
+    
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+    <!-- Vendor JS Files -->
+    <!-- <script src="assets/vendor/jquery/jquery.min.js"></script> -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    
+    <script>
+        jQuery(document).ready(function( $ )
+        {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    });
+    </script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+	
+	<!-- Custom JS files -->
+	<script src="assets/js/custom.js"></script>
+	
+</body>
+
+</html>
